@@ -39,6 +39,9 @@ body {
 p {
     text-indent: 15%;
     overflow: hidden;
+    align-items: center;
+    box-shadow: 0 1px 8px rgb(197, 194, 194);
+    justify-content: space-between;
 }
 header {
     display: flex;
