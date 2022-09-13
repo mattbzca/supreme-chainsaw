@@ -32,6 +32,10 @@ body {
     width: 20%
 }
 .image4 {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
     margin: 30px;
     float: right;
     width: 20%
@@ -58,4 +62,16 @@ header {
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
+}
+#icons {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+#right {
+    position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #50534c;
+  padding: 10px;  
 }
