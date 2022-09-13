@@ -40,3 +40,19 @@ p {
     text-indent: 15%;
     overflow: hidden;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.favicon {
+    cursor: pointer;
+}
+.nav_links {
+    list-style:none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
