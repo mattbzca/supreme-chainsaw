@@ -1,2 +1,3 @@
 # supreme-chainsaw
-biography/tribute webpage
+(biography/tribute webpage)
+This README.md file contains information of the remaining contents. This project is a newly made Git Repository with code files "index.html" and "main.css" detailing the structure, content, styling, and layout of a single webpage upheld by specific guidelines as stated by the instructor. The favicon.ico is used for every page and a gif image was used for contact.html. This is used as a mock page, hence I do not claim any intellectual property as personal. 
