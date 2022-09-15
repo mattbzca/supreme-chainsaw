@@ -4,11 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TCET: Contacts</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-
+    <div class="flex-wrapper">
+        <header>
+            <img class="favicon" src="favicon.ico" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./section1.html">Background</a></li>
+                    <li><a href="./section2.html">Nefertiti, The Beautiful One Has Come</a></li>
+                    <li><a href="./section3.html">Unit Structures</a></li>
+                    <li><a href="./section4.html">The Willisau Concert</a></li>
+                    <li><a href="./section5.html">Albums by Cecil Taylor</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+        </nav>
+        </header>
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Me</h2>
+              <p>Inquiries to matt@mockmail.com, or leave me a message here:</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="cecil-taylor-piano.gif" style="width:100%" title="Cecil Taylor Piano" alt="Cecil Taylor Piano" class="gif6p">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        <footer>
+            <p id="copyright" class="base-color">© 2022 Matthew Tan</p>
+        </footer>
+    </div>
 </body>
 </html>
